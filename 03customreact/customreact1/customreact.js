@@ -18,4 +18,4 @@ function customrender(reactElement,main){
   
 main.appendChild(domElement)
 }
-customrender(main, reactElement)
+
