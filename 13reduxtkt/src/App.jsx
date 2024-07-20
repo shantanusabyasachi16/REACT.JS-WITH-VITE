@@ -6,19 +6,21 @@
     
     Redux Toolkit also includes a powerful data fetching and caching capability that we've dubbed "RTK Query". It's included in the package as a separate set of entry points. It's optional, but can eliminate the need to hand-write data fetching logic yourself.*/
 
-
-
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import AddTodo from "./components/Addtodo"
+import Todos from "./components/Todos"
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
   <>
-  <h1> redux</h1>
+  <h1> Learn About Redux</h1>
+
+  <AddTodo/>
+ <Todos/>     
+                   
+
+
   </>
   )
 }
